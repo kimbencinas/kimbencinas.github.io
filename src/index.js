@@ -5,6 +5,9 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Projects from './Pages/Projects';
 
 const router = createBrowserRouter([
   {
@@ -23,12 +26,11 @@ const router = createBrowserRouter([
     path: '/contact',
     element: <Contact />
   }
-])
+]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
