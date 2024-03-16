@@ -1,4 +1,5 @@
 import './App.css';
+import GradientText from './Components/TextDecoration';
 
 function App() {
   return (
