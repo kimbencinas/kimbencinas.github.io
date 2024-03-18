@@ -6,11 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="flex justify-end gap-4 p-4">
-          <Link to="/">Home</Link>
-          <Link to ="/about">About</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
-          <button>Resume</button>
+          <Link to="/" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Home</Link>
+          <Link to="/about" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">About</Link>
+          <Link to="/projects" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Projects</Link>
+          <Link to="/contact" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Contact</Link>
+          <button className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Resume</button>
         </div>
       </header>
       <div className="main-content justify-center items-center p-7">
