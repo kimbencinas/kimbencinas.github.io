@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
     return (
         <div>
-            <h2>About Me</h2>
+            <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 text-3xl font-medium">About Me</h2>
         </div>
     );
 }

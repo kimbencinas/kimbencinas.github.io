@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="flex justify-end gap-4 p-4">
+        <div className="flex justify-end gap-4 p-4 font-medium">
           <Link to="/" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Home</Link>
           <Link to="/about" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">About</Link>
           <Link to="/projects" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Projects</Link>
