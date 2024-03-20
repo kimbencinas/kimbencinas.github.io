@@ -1,6 +1,9 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import Socials from './Components/Socials';
+import Projects from './Pages/Projects';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
 
 function App() {
   return (
