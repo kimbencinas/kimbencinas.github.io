@@ -13,10 +13,10 @@ export default function Navbar() {
 
     return (
         <div className="App-header">
-            <div onClick={handleNav}>
+            <div onClick={handleNav} className="block md:hidden">
             {!nav ? <FontAwesomeIcon icon={faXmark} style={{ color: "#ffffff", }} size="lg" /> : <FontAwesomeIcon icon={faBars} style={{ color: "#ffffff", }} size="lg" /> }
             </div>
-            <div className="flex hidden justify-end gap-7 p-5 font-medium max-w-[1240px] mx-auto">
+            <div className="hidden md:flex justify-end gap-7 p-5 font-medium max-w-[1240px] mx-auto">
                 <Link to="/" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Home</Link>
                 <Link to="/about" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">About</Link>
                 <Link to="/projects" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500">Projects</Link>
@@ -27,7 +27,7 @@ export default function Navbar() {
                     </span>
                 </button>
             </div>
-            <div className="fixed right-0 top-0 w-[50%] h-full border-l border-l-gray-700 bg-gray-900">
+            <div className={!nav ? 'fixed right-0 top-0 w-[50%] h-full border-l border-l-gray-700 bg-gray-900 ease-out duration-300' : 'fixed left-[-100%]'}>
                 <div className="flex flex-col justify-center mt-20 gap-10 items-center pt-10">
                     <Link to="/" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 p-3 text-xl hover:bg-gray-400">Home</Link>
                     <Link to="/about" className="hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 p-3 text-xl">About</Link>
