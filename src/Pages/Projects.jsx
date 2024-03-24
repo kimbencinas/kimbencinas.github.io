@@ -1,26 +1,31 @@
 import React from 'react';
 import CardTile from '../Components/CardTile';
+import PlaceholderImg from '../img/placeholder-image.jpg'
 
 export default function Projects() {
     return (
-        <div className="flex flex-col justify-center items-center mt-5 gap-4">
+        <div className="flex flex-col justify-center items-center mt-10 gap-4">
             <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 text-3xl font-medium">Projects</h2>
-            <div className="project-cards flex flex-wrap gap-4">
+            <div className="project-cards flex flex-wrap gap-5 mt-8">
                 <CardTile
-                    cardTitle="card title #1"
-                    cardDescription="my project #1"
+                    cardImg={PlaceholderImg}
+                    cardTitle="Dictionary App"
+                    cardDescription="React, CSS, APIs"
                 />
                 <CardTile
-                    cardTitle="card title #2"
-                    cardDescription="my project #2"
+                    cardImg={PlaceholderImg}
+                    cardTitle="Task Manager"
+                    cardDescription="React, Node, Express, SQL, RESTfulAPI, JWT"
                 />
                 <CardTile
-                    cardTitle="card title #3"
-                    cardDescription="my project #3"
+                    cardImg={PlaceholderImg}
+                    cardTitle="Thesaurus App"
+                    cardDescription="React, Fetch API, CSS"
                 />
                 <CardTile
-                    cardTitle="card title #4"
-                    cardDescription="my project #4"
+                    cardImg={PlaceholderImg}
+                    cardTitle="Timewise App"
+                    cardDescription="React, CSS, responsive design, form handling"
                 />
             </div>
         </div>
