@@ -8,7 +8,7 @@ import placeholderImg from './img/placeholder-image.jpg'
 
 function App() {
   return (
-    <div className="App font-inter">
+    <div>
       <Navbar />
       <div className="main-content justify-center items-center p-7">
         <h3 className="text-2xl">Hello, my name is</h3>
@@ -17,7 +17,7 @@ function App() {
       </div>
       <div className="short-bio flex ml-6 gap-4">
         <p className="text-left">I'm a web developer from California who has a passion for building websites and other digital experiences.</p>
-      <img src={placeholderImg} alt="logo" className="justify-end size-64" />
+        <img src={placeholderImg} alt="logo" className="justify-end size-64" />
       </div>
       <Socials />
     </div>

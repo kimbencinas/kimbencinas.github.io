@@ -4,7 +4,7 @@ import Navbar from '../Components/Navbar';
 
 export default function Contact() {
     return (
-        <div className="container">
+        <div>
             <Navbar />
             <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-pink-500 to-blue-500 text-3xl font-medium">Contact</h2>
             <div className="contact-me">
