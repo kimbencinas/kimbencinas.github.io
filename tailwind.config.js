@@ -11,6 +11,10 @@ module.exports = {
       },
       screens: {
         'xs': '320px',
+      },
+      colors: {
+        customPurple: '#7F4BFF',
+        customPink: '#ED24FF'
       }
     },
   },
