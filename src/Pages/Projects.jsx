@@ -9,26 +9,26 @@ export default function Projects() {
             <Navbar />
             <div className="flex flex-col justify-center items-center mt-10 gap-4">
                 <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink text-4xl font-bold">Projects</h2>
-                <div className="project-cards flex flex-wrap gap-5 mt-8">
+                <div className="project-cards flex flex-wrap justify-center gap-5 mt-8">
                     <CardTile
                         cardImg={PlaceholderImg}
                         cardTitle="Dictionary App"
-                        cardDescription="React, CSS, APIs"
+                        cardDescription=""
                     />
                     <CardTile
                         cardImg={PlaceholderImg}
                         cardTitle="Task Manager"
-                        cardDescription="React, Node, Express, SQL, RESTfulAPI, JWT"
+                        cardDescription=""
                     />
                     <CardTile
                         cardImg={PlaceholderImg}
                         cardTitle="Thesaurus App"
-                        cardDescription="React, Fetch API, CSS"
+                        cardDescription=""
                     />
                     <CardTile
                         cardImg={PlaceholderImg}
                         cardTitle="Timewise App"
-                        cardDescription="React, CSS, responsive design, form handling"
+                        cardDescription=""
                     />
                 </div>
             </div>
