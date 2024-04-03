@@ -8,8 +8,8 @@ export default function Projects() {
         <div>
             <Navbar />
             <div className="flex flex-col justify-center items-center mt-10 gap-10">
-                <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink text-5xl font-semibold">Projects</h2>
-                <div className="project-cards flex flex-wrap justify-center gap-8 mt-8">
+                <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink xs:text-4xl sm:text-5xl font-semibold">Projects</h2>
+                <div className="project-cards flex flex-wrap justify-center gap-8 sm:mt-7 xs:mt-0">
                     <CardTile
                         cardImg={PlaceholderImg}
                         cardTitle="Dictionary App"
