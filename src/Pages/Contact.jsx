@@ -16,7 +16,7 @@ export default function Contact() {
                     </div>
                 </div>
             </div>
-            <Socials />
+            <Socials className="fixed bottom-0 left-0 right-0" />
         </div>
     );
 }
