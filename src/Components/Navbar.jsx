@@ -14,10 +14,10 @@ export default function Navbar() {
     return (
         <div className="App-header">
             <div className="standard-navbar hidden md:flex justify-end gap-7 p-5 font-medium max-w-[1240px] mx-auto">
-                <Link to="/" className="hover:underline decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">Home</Link>
-                <Link to="/about" className="hover:underline decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">About</Link>
-                <Link to="/projects" className="hover:underline decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">Projects</Link>
-                <Link to="/contact" className="hover:underline decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">Contact</Link>
+                <Link to="/" className="hover:underline underline-offset-4 decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">Home</Link>
+                <Link to="/about" className="hover:underline underline-offset-4 decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">About</Link>
+                <Link to="/projects" className="hover:underline underline-offset-4 decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">Projects</Link>
+                <Link to="/contact" className="hover:underline underline-offset-4 decoration-white hover:text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink">Contact</Link>
                 <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-500 to-pink-500 group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800">
                     <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-lg group-hover:bg-opacity-0">
                         Resume

@@ -15,7 +15,13 @@ module.exports = {
       colors: {
         customPurple: '#7F4BFF',
         customPink: '#ED24FF'
-      }
+      },
+      gradientColor: theme => ({
+        'blue': theme('colors.blue.500'),
+        'purple': theme('colors.customPurple'),
+        'pink': theme('colors.customPink'),
+        'transparent': 'transparent',
+      })
     },
   },
   plugins: [],
