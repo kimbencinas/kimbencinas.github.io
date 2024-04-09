@@ -4,7 +4,7 @@ import Socials from './Components/Socials';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import placeholderImg from './img/placeholder-image.jpg'
+import placeholderImg from './img/placeholder-image.jpg';
 
 function App() {
   return (
