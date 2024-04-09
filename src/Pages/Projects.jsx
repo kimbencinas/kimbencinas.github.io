@@ -13,7 +13,7 @@ export default function Projects() {
                     <CardTile
                         cardImg={PlaceholderImg}
                         cardTitle="Dictionary App"
-                        cardDescription=""
+                        cardDescription="React, CSS"
                     />
                     <CardTile
                         cardImg={PlaceholderImg}
