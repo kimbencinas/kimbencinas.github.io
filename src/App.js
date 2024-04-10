@@ -4,7 +4,7 @@ import Socials from './Components/Socials';
 import Projects from './Pages/Projects';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
-import placeholderImg from './img/placeholder-image.jpg';
+import selfie from './img/selfie.jpg';
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
           <h3 className="xs:text-2xl md:text-2xl mb-10 md:ml-4 xs:text-center sm:text-center md:text-left">I build websites</h3>
           <p className="xs:text-lg sm:text-2xl xs:text-center sm:text-center md:text-left xs:mb-5 sm:mb-8">I'm a web developer from California who has a passion for building websites and other digital experiences.</p>
         </div>
-        <img src={placeholderImg} alt="logo" className="md:ml-12 mx-auto md:mx-0" />
       </div>
       <Socials />
     </div >

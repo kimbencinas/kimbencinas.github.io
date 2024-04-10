@@ -2,6 +2,10 @@ import React from 'react';
 import CardTile from '../Components/CardTile';
 import PlaceholderImg from '../img/placeholder-image.jpg'
 import Navbar from '../Components/Navbar';
+import taskmanager from '../img/taskmanager.png';
+import dictionaryapp from '../img/dictionaryapp.png';
+import timewiseapp from '../img/timewiseapp.png';
+import thesaurusapp from '../img/thesaurusapp.png'
 
 export default function Projects() {
     return (
@@ -11,24 +15,24 @@ export default function Projects() {
                 <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-customPurple to-customPink xs:text-4xl sm:text-5xl font-semibold">Projects</h2>
                 <div className="project-cards flex flex-wrap justify-center gap-8 sm:mt-7 xs:mt-0">
                     <CardTile
-                        cardImg={PlaceholderImg}
+                        cardImg={thesaurusapp}
+                        cardTitle="Thesaurus App"
+                        cardDescription="React, CSS"
+                    />
+                    <CardTile
+                        cardImg={taskmanager}
+                        cardTitle="Task Manager"
+                        cardDescription="React, Node, Express, SQL"
+                    />
+                    <CardTile
+                        cardImg={dictionaryapp}
                         cardTitle="Dictionary App"
                         cardDescription="React, CSS"
                     />
                     <CardTile
-                        cardImg={PlaceholderImg}
-                        cardTitle="Task Manager"
-                        cardDescription=""
-                    />
-                    <CardTile
-                        cardImg={PlaceholderImg}
-                        cardTitle="Thesaurus App"
-                        cardDescription=""
-                    />
-                    <CardTile
-                        cardImg={PlaceholderImg}
+                        cardImg={timewiseapp}
                         cardTitle="Timewise App"
-                        cardDescription=""
+                        cardDescription="React, CSS"
                     />
                 </div>
             </div>
