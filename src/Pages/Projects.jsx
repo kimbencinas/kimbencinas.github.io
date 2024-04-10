@@ -17,22 +17,26 @@ export default function Projects() {
                     <CardTile
                         cardImg={thesaurusapp}
                         cardTitle="Thesaurus App"
-                        cardDescription="React, CSS"
+                        githubLink="https://github.com/kimbencinas/thesaurus-react"
+                        cardDescription="React, CSS, API"
                     />
                     <CardTile
                         cardImg={taskmanager}
                         cardTitle="Task Manager"
+                        githubLink="https://github.com/kimbencinas/task-manager"
                         cardDescription="React, Node, Express, SQL"
                     />
                     <CardTile
                         cardImg={dictionaryapp}
                         cardTitle="Dictionary App"
-                        cardDescription="React, CSS"
+                        githubLink="https://github.com/kimbencinas/dictionary-app"
+                        cardDescription="React, CSS, API"
                     />
                     <CardTile
                         cardImg={timewiseapp}
                         cardTitle="Timewise App"
-                        cardDescription="React, CSS"
+                        githubLink="https://github.com/Sillor/timewise-client"
+                        cardDescription="React, Tailwind, CSS"
                     />
                 </div>
             </div>
